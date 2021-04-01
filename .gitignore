@@ -1,5 +1,6 @@
 # Files specific to this project
 secret.py
+weather.db
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

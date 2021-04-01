@@ -23,7 +23,7 @@ def weatherData(city: str) -> tuple:
         currentHumidity = y["humidity"]
         z = x["weather"]
         weatherConditions = z[0]["description"]
-
         return (currentTemperature, currentPressure, currentHumidity, weatherConditions)
+        
     else:
         return None
